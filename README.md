@@ -8,6 +8,8 @@ Mit dieser Erweiterung kann man sich mit dem Church Tools TOTP (2. Faktor) in Ke
 
 # Installation
 
+
+## Church Tools Credentials
 Die Churchtools spezifischen Daten wie die Instanz und Username/Passwort eines Adminusers sind in der keycloak.conf
 Datei zu hinterlegen.
 
@@ -19,6 +21,8 @@ spi-credential-churchtools-totp-username=adminuser
 spi-credential-churchtools-totp-password=adminpassword
 ```
 
+## Jar Installation
+
 Die jar Datei aus dem Targetverzeichnis muss in das providers Verzeichnis von keycloak kopiert werden.
 Alternativ kann man das jar aus dem Gitrepo Release Verzeichnis nutzen.
 
@@ -27,7 +31,11 @@ Alternativ kann man das jar aus dem Gitrepo Release Verzeichnis nutzen.
 cp target/user-storage-churchtools.jar keycloak/providers
 ```
 
-Keycloak muss danach neugestartet werden.
+## Theme / TOTP Formular
+Der Ordner churchtheme muss nach /themes/churchtheme kopiert werden.
+
+
+Keycloak muss danach neu gestartet werden.
 
 ## Konfiguration in Keycloak
 
