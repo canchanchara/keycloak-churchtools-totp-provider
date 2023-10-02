@@ -28,7 +28,7 @@ Alternativ kann man das jar aus dem Gitrepo Release Verzeichnis nutzen.
 
 
 ```
-cp target/user-storage-churchtools.jar keycloak/providers
+cp target/totp-churchtools.jar keycloak/providers
 ```
 
 ## Theme / TOTP Formular
